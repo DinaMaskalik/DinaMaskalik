@@ -5,8 +5,8 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        final int PERSONSIZE = 100;
-        final int ANIMALSIZE = 100;
+        final int PERSONSIZE = 100000;
+        final int ANIMALSIZE = 100000;
 
         RandomData randomData = new RandomData();
         DataContainer<Person> personDataContainer = new DataContainer<>(new Person[PERSONSIZE]);
