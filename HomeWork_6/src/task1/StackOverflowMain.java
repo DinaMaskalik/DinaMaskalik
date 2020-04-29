@@ -9,11 +9,11 @@ public class StackOverflowMain {
         }
     }
 
-    public static void sum(){
+    public static double sum(){
         double a=23d;
         double d=56d;
         double s=3d;
         sum();
-        return;
+        return a+d*5+s*20;
     }
 }
